@@ -21,6 +21,7 @@
     "three": "^0.187.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.5",
     "@tailwindcss/turbopack": "^4",
     "@types/canvas-confetti": "^1.9.0",
     "@types/node": "^20",
