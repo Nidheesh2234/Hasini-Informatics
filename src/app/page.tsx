@@ -2,7 +2,6 @@ import HeroSection from "@/components/home/HeroSection";
 import ProblemSection from "@/components/home/ProblemSection";
 import AnswerSection from "@/components/home/AnswerSection";
 import ServicesSection from "@/components/home/ServicesSection";
-import AgenticAiSpotlight from "@/components/home/AgenticAiSpotlight";
 import ProcessSection from "@/components/home/ProcessSection";
 import LeadershipSection from "@/components/home/LeadershipSection";
 import ProjectsSection from "@/components/home/ProjectsSection";
@@ -26,8 +25,6 @@ export default function Home() {
       {/* 4. Complete Services Bento Grid & Interactive Modal */}
       <ServicesSection />
 
-      {/* 5. Agentic AI Wow Section: Multi-Agent Swarm Simulation */}
-      <AgenticAiSpotlight />
 
       {/* 6. The 5-D Process Methodology Timeline */}
       <ProcessSection />
