@@ -237,14 +237,14 @@ export default function ContactSection() {
                   Expected Investment Scale
                 </label>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-                  {["<$10k", "$10k-$25k", "$25k-$50k", "$50k-$1L+"].map((range) => (
+                  {["<₹10k", "₹10k-₹25k", "₹25k-₹50k", "₹50k-₹1L+"].map((range) => (
                     <button
                       key={range}
                       type="button"
                       onClick={() => setFormData({ ...formData, budget: range })}
                       className={`py-2 px-3 rounded-xl text-xs font-mono transition-all cursor-pointer ${formData.budget === range
-                          ? "bg-violet-600 text-white font-bold border border-violet-400"
-                          : "bg-white/[0.03] text-slate-400 border border-white/[0.08] hover:bg-white/[0.06] hover:text-white"
+                        ? "bg-violet-600 text-white font-bold border border-violet-400"
+                        : "bg-white/[0.03] text-slate-400 border border-white/[0.08] hover:bg-white/[0.06] hover:text-white"
                         }`}
                     >
                       {range}
