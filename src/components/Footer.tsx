@@ -130,24 +130,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-xs font-mono uppercase tracking-widest text-white/50 mb-2">
-                Headquarters
-              </h3>
-              <p className="text-xs text-slate-400 leading-relaxed flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-violet-400 shrink-0 mt-0.5" />
-                <span>{siteConfig.contact.address.full}</span>
-              </p>
-              <a
-                href={siteConfig.contact.address.mapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[11px] font-mono text-cyan-400 hover:text-cyan-300 mt-2"
-              >
-                <span>View on Maps</span>
-                <ExternalLink className="w-3 h-3" />
-              </a>
-            </div>
+
           </div>
         </div>
 
