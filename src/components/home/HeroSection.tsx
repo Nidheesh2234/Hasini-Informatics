@@ -3,14 +3,11 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles, ChevronDown, ShieldCheck } from "lucide-react";
-import HeroCanvas from "@/components/hero/HeroCanvas";
 import { siteConfig } from "@/data/siteConfig";
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-28 pb-16 px-4 sm:px-6 lg:px-8 select-none">
-      {/* Interactive 3D Particle Mesh Canvas */}
-      <HeroCanvas />
 
       {/* Radial Spotlight Gradient Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gradient-to-b from-violet-600/20 via-pink-600/15 to-transparent rounded-full blur-[140px] pointer-events-none" />
