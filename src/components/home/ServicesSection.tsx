@@ -86,11 +86,10 @@ export default function ServicesSection() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.08 }}
                 onClick={() => setSelectedService(service)}
-                className={`group relative p-8 rounded-3xl cursor-pointer transition-all duration-500 flex flex-col justify-between ${
-                  isClosing
+                className={`group relative p-8 rounded-3xl cursor-pointer transition-all duration-500 flex flex-col justify-between ${isClosing
                     ? "md:col-span-2 lg:col-span-3 bg-gradient-to-r from-violet-950/60 via-purple-900/40 to-cyan-950/60 border-2 border-violet-500/40 shadow-[0_20px_50px_rgba(139,92,246,0.15)]"
                     : "bg-[#090d1a]/85 border border-white/[0.08] hover:border-violet-500/50 hover:-translate-y-1.5 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.7)]"
-                }`}
+                  }`}
               >
                 {/* Spotlight hover halo */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-white/[0.04] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />

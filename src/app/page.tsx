@@ -25,26 +25,25 @@ export default function Home() {
       {/* 4. Complete Services Bento Grid & Interactive Modal */}
       <ServicesSection />
 
-
-      {/* 6. The 5-D Process Methodology Timeline */}
+      {/* 5. The 5-D Process Methodology Timeline */}
       <ProcessSection />
 
-      {/* 7. Dedicated Leadership Section (Founders & Visionaries) */}
+      {/* 6. Dedicated Leadership Section (Founders & Visionaries) */}
       <LeadershipSection />
 
-      {/* 8. Selected Work / Projects Showcase & Category Filters */}
+      {/* 7. Selected Work / Projects Showcase & Category Filters */}
       <ProjectsSection />
 
-      {/* 9. Numbers & Production Metrics */}
+      {/* 8. Numbers & Production Metrics */}
       <StatsSection />
 
-      {/* 10. Technology Stack Infinite Marquee */}
+      {/* 9. Technology Stack Infinite Marquee */}
       <TechMarqueeSection />
 
-      {/* 11. Executive Testimonials Carousel */}
+      {/* 10. Executive Testimonials Carousel */}
       <TestimonialsSection />
 
-      {/* 12 & 13. Giant Final CTA & Interactive Contact Form */}
+      {/* 11 & 12. Giant Final CTA & Interactive Contact Form */}
       <ContactSection />
     </div>
   );
