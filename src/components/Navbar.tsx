@@ -47,8 +47,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between">
             {/* Brand Wordmark & Animated Dual-Spiral Logo */}
-            <BrandLogo size="md" className="hidden sm:inline-flex" />
-            <BrandLogo size="sm" className="sm:hidden" />
+            <BrandLogo size="md" />
 
             {/* Desktop Navigation Links */}
             <div className="hidden md:flex items-center gap-1 lg:gap-2 px-4 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.06] backdrop-blur-md">
